@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href ='style.css'>
+    <title>Learning HTML</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <body>
+        <p>As Albert Einstein once said:</p>
+        <blockquote>
+        <p>"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. The true sign of intelligence is not knowledge but imagination."</p>
+        </blockquote>
+        
+        <p>This quote speaks to the idea that creativity and original thinking are more important than simply accumulating knowledge. It suggests that being able to see beyond what is already known and to imagine new possibilities is a key characteristic of intelligence.</p>
+        <code>print("Helloworld")</code>
+        <hr>
+            <pre>&lt;body&gt;
+                &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                &lt;p&gt;Welcome to my first HTML page.&lt;/p&gt;
+                &lt;/body&gt;
+            </pre>
+        <br>
+        <hr>
+            <samp> 
+                tag is used to indicate sample output in a web page. When text is enclosed within the
+            </samp>
+        <br>
+        <hr>
+        <kbd>Ctrl + C</kbd>
+        <hr>
+            <h1 align = 'center'>LIST</h1>
+            <p>Unordered List</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <br>
+            <p>Ordered list</p>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+
+            <p>Definition List</p>
+            <dl>
+                <dt>Term 1</dt>
+                <dd>Definition 1</dd>
+                <dt>Term 2</dt>
+                <dd>Definition 2</dd>
+                <dt>Term 3</dt>
+                <dd>Definition 3</dd>
+            </dl>
+        <br>
+        <hr>
+        <h1 align="center">Tables</h1>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Web design</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Graphic design</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Content writing</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Social media management</td>
+                <td>$150</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1" cellspacing="10" cellpadding="5" width="80%" height="200" align="center" bgcolor="#f2f2f2">
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Product 1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>$15.00</td>
+            </tr>
+        </table>
+
+        <br>
+        <table border="1" cellspacing="10" cellpadding="5" width="80%" height="200" align="center" bgcolor="#f2f2f2">
+            <tr>
+                <th rowspan="2">Product</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>Old</th>
+                <th>New</th>
+            </tr>
+            <tr>
+                <td>Product 1</td>
+                <td>$10.00</td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>$15.00</td>
+                <td>$18.00</td>
+            </tr>
+        </table>
+
+        <br>
+        <hr>
+        <h1 align="center">Playing with Images</h1>
+        <img src="https://edube.org/uploads/media/default/0001/03/mountain_landscape.jpg" alt = 'mountain_landscape'>
+        <br>
+        <hr>
+        <h1>Playing with hyperlinks</h1>
+        <a href = "flowershop.html" target="_blank">Visit our flowershop</a>
+        <br>
+        <a href="">Email Us</a>
+
+        <br>
+        <p>Click to Knowmore about sunflower</p>
+        <a href = 'https://en.wikipedia.org/wiki/Common_sunflower' target="_blank">
+            <img src="/Module 1/images/Sunflower_sky_backdrop.jpg" alt = 'Common_sunflower'>            
+        </a>
+
+        <a href = 'qkgaanduque@tip.edu.ph' target="_blank">Send Email-contact</a>
+        <br>
+        <hr>
+            <h1>Playing with forms</h1>
+            <form action="/submit" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Kurt Gabriel Anduque">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="qkgaanduque@tip.edu.ph">
+                <br>
+                <h3>Please insert your brithday</h3>
+                <label for ='birthday'>Birth Date: </label>
+                <input type="date" id= 'dateform'>
+
+                <h3>Choose your current Year</h3>
+                <label for="firstyear"> 1st Year </label>
+                <input type ='radio' id="1styear" name="schoolyear" value = '1styear'>
+                <label for="secondyear"> 2nd Year </label>
+                <input type ='radio' id="2ndyear" name="schoolyear" value = '2styear'>
+                <label for="thirdtyear"> 3rd Year </label>
+                <input type ='radio' id="3rdyear" name="schoolyear" value = '3rdyear'>
+                <label for="fourthyear"> 4th Year </label>
+                <input type ='radio' id="4thyear" name="schoolyear" value = '4thyear'>
+                <br>
+                <br>
+                <label for ='program'><b>SELECT PROGRAM: </b></label>
+                <select id = 'program' name="program">
+                    <option value="">Computer Engineering</option>
+                    <option value="">Information Technology</option>
+                    <option value="">Architecture</option>
+                    <option value="">Civil Engineering</option>
+                    <option value="">Mechanical Engineering</option>
+                    <option value="">Electronics Engineering</option>
+                </select>
+
+                <p>Select the workshops you'd like to attend:</p>
+                <label for="workshop1">Workshop 1</label>
+                <input type="checkbox" id="workshop1" name="workshop1">
+                <label for="workshop2">Workshop 2</label>
+                <input type="checkbox" id="workshop2" name="workshop2">
+                <label for="workshop3">Workshop 3</label>
+                <input type="checkbox" id="workshop3" name="workshop3">
+                <br>
+                
+                <input type="submit" value="Register">
+            </form>
+        <br>
+        <hr>
+
+    </body>
+
+    <footer>
+        <a href="dr.html">- Dr. Seuss</a>
+    </footer>
+</body>
+</html>
