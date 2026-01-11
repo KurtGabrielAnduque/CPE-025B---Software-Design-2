@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headingpart p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #e0d0c0;
+    padding-top: 5px;
+}
+
+
+.headingpart{
+    padding-top: 20px;
+    background-color: #2c241b; 
+    border-bottom: 2px solid #4a3b32;
+}
+
+.headingpart .container{
+    margin: 10px auto;
+    font-size: 2em;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 10px 130px;
+    border-radius: 60px;
+    gap: 20px;
+    background-color: #1a1510; 
+    border: 10px solid #4a3b32;
+    color: #e0d0c0;
+}
+
+.navbar{
+    background-color: #1a1510;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.dropdown{
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.dropdown .drpbtn{
+    font-size: 28px;
+    color: white;
+    background-color:#1a1510;
+    border: none;
+    outline: none;
+    padding: 14px 30px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .drpbtn{
+    background-color: hsl(0, 1%, 18%);
+}
+
+.dcontents{
+    display: none;
+    position: absolute;
+    background-color:#1a1510;
+    z-index: 1;
+}
+
+.dropdown:hover .dcontents{
+    display: flex;
+    flex-direction: column;
+}
+
+.active{
+    background-color: hsl(0, 1%, 18%);
+}
+
+
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774)), url('./images/mainimg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincont{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.maincont h1{
+    font-size: 5em;
+}
+
+.maincont h2{
+    font-size: 3em;
+}
+
+
+footer{
+    background-color: #2c241b; 
+    border-top: 2px solid #4a3b32;
+    padding: 20px;
+}
+
+.footercont{
+    display: flex;
+    color: #e0d0c0;
+    font-size: 1.3em;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
