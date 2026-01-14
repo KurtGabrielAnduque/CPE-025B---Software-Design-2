@@ -1,0 +1,177 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: 0px;
+    padding: 10px;
+}
+
+.main-container{
+    max-width: 1400px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 0px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.header-container .top-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-container header{
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+    padding: 40px;
+    
+}
+
+.main-container main{
+    min-height: 900px;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+
+.general-container {
+    background-color: white;
+    min-width: 700px;
+    border-right: 2px solid black;
+    border-bottom-left-radius: 30px;
+}
+
+.contact-container{
+    background-color: #5757E6;
+    min-width: 690px;
+    color: white;
+    
+    border-bottom-right-radius: 30px;
+}
+
+.general-container .group-row{
+    display: flex;
+    gap: 0px;
+    margin: 0px;
+    
+}
+
+.general-container .group-form{
+    position: relative;
+    width: 100%;
+    margin: 25px;
+}
+
+.general-container .group-form input, .general-container .group-form select{
+    width: 80%;
+    border: none;
+    font-size: 23px;
+    border-bottom: 2px solid #e0e0e0;
+    outline: none;
+    color: rgb(73, 72, 72);
+    transition: border-color 0.3s;
+    padding: 15px 0px;
+}
+
+.general-container .group-form input::placeholder{
+    color: rgb(73, 72, 72);
+}
+
+.general-container .group-form select:valid {
+    color: black;
+}
+
+.general-container .group-form input:focus, .general-container .group-form select:focus{
+    border-bottom:2px solid #5757E6;
+}
+
+.inner-container{
+    margin:20px;
+}
+
+.gen-inner{
+    margin: 30px;
+}
+
+.inner-container .group-form input, .inner-container .group-form select{
+    background: none;
+    outline: none;
+    color: #e0e0e0;
+    border: none;
+    font-size: 23px;
+    width: 95%;
+    border-bottom: 2px solid white;
+    transition: border-color 0.3s;
+    padding: 15px 0px;
+}
+
+.inner-container .group-row{
+    display: flex;
+}
+
+.inner-container .group-form{
+    position: relative;
+    padding: 25px;
+}
+
+.inner-container .group-form input::placeholder{
+    color: white;
+}
+
+.inner-container .group-form select:valid{
+    color: white;
+    background-color: #5757E6;
+}
+
+.inner-container .group-form input:focus, .inner-container .group-form select:focus{
+    border-bottom: 2px solid black;
+}
+
+.aggreement{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.aggreement label{
+    font-size: 19px;
+}
+
+.aggreement a{
+    color: black;
+    text-decoration: none;
+}
+
+.button-part {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.button-part button{
+    font-size: 28px;
+    padding: 16px 28px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.button-part button:hover{
+    background-color: gray;
+}
