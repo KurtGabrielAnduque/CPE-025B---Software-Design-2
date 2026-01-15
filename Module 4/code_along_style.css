@@ -1,0 +1,42 @@
+.first-cont h1{
+    background-color: blue;
+}
+
+.first-cont p{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.letters{
+    display: flex;
+    gap: 50px;
+}
+
+.letters p{
+    padding: 100px 100px;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.letters p:nth-child(1){
+    background-color: aqua;
+}
+
+.letters p:nth-child(2){
+    background-color: yellow;
+}
+
+.letters p:nth-child(3){
+    background-color: rgb(255, 72, 0);
+}
+
+
+.clicker button{
+    font-size: 50px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
