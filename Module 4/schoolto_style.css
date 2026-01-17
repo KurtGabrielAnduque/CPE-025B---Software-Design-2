@@ -12,6 +12,7 @@ body{
     align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.77)), url('./images/Screenshot\ 2026-01-15\ 180713.png');
     color: white;
+
 }
 
 .main-top{
@@ -37,7 +38,8 @@ body{
 
 .nav-bar{
     background-color: greenyellow;
-    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-bar a{
@@ -53,9 +55,254 @@ body{
     background-color: rgb(145, 143, 143);
 }
 
-.nav-bar a:nth-child(1){
+.nav-bar a:nth-child(2){
     margin-left: auto;
 }
 
 
+.program-cont{
+    margin-top: 0;
+    padding-top: 20px;
+    background-color: #ffff66;
+}
 
+.inner-prog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-prog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.top-prog h1{
+    font-size: 3em;
+}
+
+.top-prog h2{
+    font-weight: 200;
+}
+
+.prog-btn {
+    padding-bottom: 50px;
+}
+
+
+.prog-btn a{
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 30px 100px;
+    margin-left: -10px;
+    border: 2px solid black;
+    transition: background-color 0.8s;
+}
+
+.prog-btn a:nth-child(2){
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.prog-btn a:nth-child(1){
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.prog-btn a:hover{
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+}
+
+.prog-select{
+    display: flex;
+    gap: 50px;
+}
+
+.prog-select{
+    margin: 50px 30px;
+
+}
+
+.engineering{
+    background-color: #94DEA5;
+    padding: 20px 20px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 0.7s;
+}
+
+.Architecture{
+    background-color: #94DEA5;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 0.7s;
+}
+
+.computer{
+    background-color: #94DEA5;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 0.7s;
+}
+.business{
+    background-color: #94DEA5;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 0.7s;
+}
+
+.business:hover{
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+}
+
+.computer:hover{
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+}
+
+.Architecture:hover{
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+}
+
+.engineering:hover{
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+}
+
+
+.mv-container{
+    margin: 80px 50px;
+}
+
+.inner-con{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.mis-cont{
+    border: 2px solid black;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f5ce21b0;
+    border-radius: 10px;
+}
+
+.vis-cont{
+    border: 2px solid black;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f5ce21b0;
+    border-radius: 10px;
+}
+
+.inner-con p{
+    font-size: 1.3em;
+}
+
+.inner-con h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+
+.calendar-cont{
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+}
+
+.inner-cal-cont{
+    display: flex;
+    margin: 80px 30px;
+    gap: 30px;
+}
+
+.inner-cal-cont a:nth-child(1){
+    margin: 30px;
+    padding: 50px 30px;
+    background-color: #ffff66;
+    text-decoration: none;
+    color: black;
+    max-width: 20%;
+    border-radius: 10px;
+    transition: background-color 0.7s;
+}
+
+.inner-cal-cont a{
+    margin: 30px;
+    padding: 50px 30px;
+    background-color: #c7c7c6;
+    text-decoration: none;
+    color: black;
+    max-width: 20%;
+    border-radius: 10px;
+    transition: background-color 0.7s;
+}
+
+
+.inner-cal-cont h1{
+    font-size: 3em;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.inner-cal-cont p{
+    font-size: 1.6em;
+}
+
+.inner-cal-cont a:hover{
+    background-color: hsl(0, 0%, 43%);
+    color: white;
+}
+
+
+.footer {
+    background-color: #2b2b2b;
+    padding: 60px 0;
+    color: white;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-col h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+    color: #f5ce21;
+}
+
+.footer-col i {
+    margin-right: 10px;
+}
