@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(247, 238, 238, 0.9),
+        rgba(247, 238, 238, 0.9)
+    ),
+    url("/CSS_Module3/images/surprise_pic.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Center container */
+.login-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.login-card {
+    background-color: white;
+    width: 420px;
+    padding: 45px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Logo */
+.login-card img {
+    width: 110px;
+    margin-bottom: 10px;
+}
+
+/* Text */
+.login-card h1 {
+    margin: 10px 0 5px;
+}
+
+.subtitle {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+.input-box {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #333;
+    border-radius: 50px;
+    padding: 12px 18px;
+    margin-bottom: 15px;
+}
+
+.input-box i {
+    font-size: 1.1em;
+    margin-right: 10px;
+    color: #333;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    width: 100%;
+}
+
+/* Button */
+.login-card button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(226, 160, 171);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-card button:hover {
+    background-color: rgb(200, 130, 140);
+}
+
+/* Sign up */
+.signup-text {
+    margin-top: 18px;
+    font-size: 0.9em;
+}
+
+.signup-text a {
+    color: #d63031;
+    text-decoration: none;
+    font-weight: bold;
+}
