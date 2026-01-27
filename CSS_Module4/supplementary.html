@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = '/CSS_Module4/supplementary_style.css'>
+    <link rel = 'icon' href = '/CSS_Module3/images/bakery_icon.png'>
+    <script src="https://kit.fontawesome.com/b7fa3da7bb.js" crossorigin="anonymous"></script>
+    <title>My BLOG</title>
+</head>
+    <body>
+
+        <div class = main-header>
+            <header>
+                <h1>Welcome to the Tech Blog</h1>
+                <p>Your source for Graphics Card benchmarks and architecture news.</p>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="/Module 2/About.html">About Me</a></li>
+                    <li><a href="#footercont">contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container clearfix">
+
+            <div class="sidebar">
+                <h3>Top Categories</h3>
+                <ul>
+                    <li>NVIDIA GeForce</li>
+                    <li>AMD Radeon</li>
+                    <li>Intel Arc</li>
+                    <li>Ray Tracing</li>
+                    <li>DLSS & FSR</li>
+                </ul>
+                <h3>Trending Now</h3>
+                <p>Is the RTX 5090 coming soon? Rumors suggest a massive power draw increase.</p>
+            </div>
+
+            <div class="main-content">
+                
+                <article>
+                    <h2>Deep Dive: How a GPU Works</h2>
+                    <hr>
+                    <img src="/CSS_Module4/images/archite.jpg" alt="nvidia architecture" class="post-image">
+                    
+                    <p>
+                        <strong>Understanding the silicon.</strong> Unlike a Central Processing Unit (CPU), which is designed to handle a few complex tasks sequentially, a Graphics Processing Unit (GPU) is designed for parallel processing. It breaks complex problems into thousands or millions of separate tasks and works on them all at once.
+                    </p>
+                    <p>
+                        This is why GPUs are efficient at rendering 3D graphics. A single frame in a video game contains millions of pixels. The GPU must calculate the color, lighting, and position of every single pixel simultaneously. 
+                    </p>
+                    <p>
+                        Modern GPUs have evolved beyond just gaming. They are now the engine behind Artificial Intelligence (AI) and Machine Learning models. The same parallel processing capability used to calculate lighting in <em>Cyberpunk 2077</em> is used to train Large Language Models (LLMs) like ChatGPT.
+                    </p>
+                </article>
+
+                <div class="clearfix"></div> <h3>Latest Reviews</h3>
+                <div class="grid-row clearfix">
+                    
+                    <div class="grid-item">
+                        <img src="/CSS_Module4/images/4090.jpg" alt="4090">
+                        <h4>NVIDIA RTX 4090</h4>
+                        <p>The king of performance, but at a steep price. Is 4K 144Hz finally achievable?</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="/CSS_Module4/images/amd.jpg" alt="AMD Radeon RX 7900 XTX">
+                        <h4>AMD RX 7900 XTX</h4>
+                        <p>AMD's response to the flagship market. Great rasterization performance.</p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="/CSS_Module4/images/Intel-Arc-A770-16GB-ph.jpg" alt="Intel Arc A770">
+                        <h4>Intel Arc A770</h4>
+                        <p>The new challenger approaches. Excellent value for 1080p gaming.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class = 'footercont' id = 'footercont'>
+                <p>Follow us on: </p>
+                <p><i class="fa-brands fa-facebook fa-2xl" style="color: rgb(65, 33, 243);"></i> Facebook</p>
+                <p><i class="fa-brands fa-youtube fa-2xl" style="color: red;"></i> Youtube</p>
+                <p><i class="fa-brands fa-tiktok fa-2xl"></i> Tiktok</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
