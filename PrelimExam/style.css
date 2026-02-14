@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 231, 231);
+}
+
+.main-form{
+    background-color: white;
+    margin: 50px 80px;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    background-color: rgb(155, 7, 155);
+    padding: 30px;
+    color: white;
+    font-size: 1.2em;
+    border-bottom: 3px solid black
+}
+
+.forming{
+    border: 1px solid black;
+    margin: 20px 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.line{
+    font-size: 1.3em;
+}
+
+.line input{
+    font-size: 1.2em;
+    padding: 10px 5px;
+    outline: none;
+    transition: border-bottom .5s;
+    width: 300px;
+}
+
+.line input:focus{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(243, 53, 202);
+}
+
+.line select{
+    background-color: aliceblue;
+    width: 300px;
+    padding: 15px 10px;
+    font-size: 1.2;
+}
+
+.comment-area{
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 20px 50px;
+    align-content: center;
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    background-color: rgb(157, 52, 255);
+    color:white;
+    border-radius: 50px;
+
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    font-size: 1.3em;
+    padding: 50px 50px;
+}
+
+.comment-area{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.comment-area input{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1;
+}
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b7fa3da7bb.js" crossorigin="anonymous"></script>
+    <link rel = 'stylesheet' href = '/PrelimExam/style.css'>
+    <title>Survey Website</title>
+</head>
+<body>
+    <main>
+        <div class = 'main-form'>
+            <div class = 'header'>
+                <h1>Everyday commute experience</h1>
+                <p>Please help us complete the survey form</p>
+            </div>
+            <div class = 'forming'>
+                <form action="#" id="survey-form">
+                    <div class="line">
+                        <label for="name">Username: </label>
+                        <input type="text" name="username" id="name" required placeholder="Username">
+                    </div>
+                    <div class="line">
+                        <label for="email">Email: </label>
+                        <input type="text" name="name" id="email" required pattern="email@gmail.com" placeholder="Email">
+                    </div>
+                    <div class="line">
+                        <label for="number">ID Number: </label>
+                        <input type="text" name="number" id="number" required minlength="7" maxlength="7" placeholder="1234567">
+                    </div>
+
+                    <div class = 'line'>
+                        <label for="gender">Select gender:</label>
+                        <select name="gender" id="gender">
+                            <option value="#">Select gender</option>
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="No">Prefer not to answer</option>
+                        </select>
+                    </div>
+                    
+                    <div class = 'line-year'>
+                        <label for="year">Year Level: </label>
+                        <label for="year">1st Year</label>
+                        <input type="radio" name = 'year' value="1">
+                        <label for="year">2nd Year</label>
+                        <input type="radio" name = 'year' value="2">
+                        <label for="year">3rd Year</label>
+                        <input type="radio" name = 'year' value="3">
+                        <label for="year">4th Year</label>
+                        <input type="radio" name = 'year' value="4">
+                    </div>
+
+                    <div class="questions">
+                        <div class = question>
+                            <p><strong>How many days in a week you commute?</strong></p>
+                        </div>
+                        <div class ='selection'>
+                            <div class="answer">
+                                <label for="question1">once a week</label>
+                                <input type="radio" name="question1">
+                            </div>
+                            <div class="answer">
+                                <label for="question1">4 times a week</label>
+                                <input type="radio" name="question1">
+                            </div>
+                            <div class="answer">
+                                <label for="question1">5 times a week</label>
+                                <input type="radio" name="question1">
+                            </div>
+                            <div class="answer">
+                                <label for="question1">Everyday</label>
+                                <input type="radio" name="question1">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="questions">
+                        <div class = 'question'>
+                            <p><strong>What kind of vehicle you use when commuting</strong></p>
+                        </div>
+                        <div class="selection">
+                            <div class="answer">
+                                <label for="question2">Jeep</label>
+                                <input type="checkbox" name = 'question2'>
+                            </div>
+                            <div class="answer">
+                                <label for="question2">Bus</label>
+                                <input type="checkbox" name = 'question2'>
+                            </div>
+                            <div class="answer">
+                                <label for="question2">Trycicle</label>
+                                <input type="checkbox" name = 'question2'>
+                            </div>
+                            <div class="answer">
+                                <label for="question2">Train</label>
+                                <input type="checkbox" name = 'question2'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="questions">
+                        <div class = question>
+                            <p><strong>Do you feel exhausted after commute??</strong></p>
+                        </div>
+                        <div class ='selection'>
+                            <div class="answer">
+                                <label for="question3">Yes</label>
+                                <input type="radio" name="question3">
+                            </div>
+                            <div class="answer">
+                                <label for="question3">No</label>
+                                <input type="radio" name="question3">
+                            </div>
+
+                        </div>
+                    </div>  
+
+                    <div class = 'comment-area'>
+                        <label for="comment"><strong>Any suggestion to make the survey better?</strong></label>
+                        <input type="textarea" name="comment" id="comment">
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
