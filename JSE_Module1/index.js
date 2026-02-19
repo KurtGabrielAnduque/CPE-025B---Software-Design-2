@@ -30,7 +30,7 @@ teamDirectory[1].Available = true;
 console.log(`Is Sasha Ivana available: ${teamDirectory[1].Available}`);
 
 // The name and the first skill of the first team member.
-console.log(`First skill of the member: ${teamDirectory[0].Skills[0]}`);
+console.log(`First skill of ${teamDirectory[0].Name}: ${teamDirectory[0].Skills[0]}`);
 
 // The name and the total number of skills of the last team member in the list (use the.length property).
 console.log(`Total number of skills of last member: ${teamDirectory[3].Skills.length}`);
