@@ -24,6 +24,11 @@ newEmployee = {
 // push the new employee
 teamDirectory.push(newEmployee);
 
+//Update Availability: Sasha Ivana has just finished a project. Update her available property to true by accessing it via the array index.
+teamDirectory[1].Available = true;
+
+console.log(`Is Sasha Ivana available: ${teamDirectory[1].Available}`);
+
 // The name and the first skill of the first team member.
 console.log(`First skill of the member: ${teamDirectory[0].Skills[0]}`);
 
